@@ -1,8 +1,8 @@
-import { conectaAPI } from "./conectaApi.js";
+import { conectaApi } from "./conectaApi.js";  
 
 const lista = document.querySelector('[data-lista]');
 
-function constroiCard(titulo, descricao, url, imagem){
+function constroiCard(titulo, descricao, url, imagem) {
   const video = document.createElement('li');
   video.className = 'videos__item';
   video.innerHTML = `
@@ -10,20 +10,19 @@ function constroiCard(titulo, descricao, url, imagem){
     title="${titulo}" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
-    <div class="descricao-video">
-      <img src="${imagem}" alt="logo canal alura">
-      <h3>${titulo}</h3>
-      <p>${descricao}</p>
-    </div>
+  <div class="descricao-video">
+    <img src="${imagem}" alt="logo canal alura">
+    <h3>${titulo}</h3>
+    <p>${descricao}</p>
+  </div>
   `
   return video;
 }
 
-async function listaVideos(){
-  const listaAPI = await conectaAPI.listaVideos();
-  listaAPI.forEach(element => 
-    lista.appendChild(constroiCard(element.titulo, element.descricao, 
-      element.url, element.imagem)));
+async function listarVideo(){
+  const listaApi = await conectaApi.listaVideos();
+  listaApi.forEach(element => lista.appendChild(
+    constroiCard(element.titulo, element.descricao, element.url, element.imagem)));
 }
 
-listaVideos();
+listarVideo()

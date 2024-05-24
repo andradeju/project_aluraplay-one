@@ -71,9 +71,9 @@
       "id": 10
     },
     {
-      "titulo": "Educação coorporativa",
+      "titulo": "Se prepare para entrevistas de vagas de Front-End",
       "descricao": "4 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "url": "https://www.youtube.com/embed/GEljZeWTVec",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 11
     },
@@ -83,6 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "id": "1e1c",
+      "titulo": "Como criar um projeto em React e Typescript para seu Portfólio?",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/NpS2PksdMCc",
+      "imagem": "https://yt3.ggpht.com/W7GokEE6ydjZFa_Tpz6yvSsDlVPTe7d4yTsJqKXy1Gbhu1BGXCfKJ_I-_TzOq37m8R9S97kQ=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "e8ab",
+      "titulo": "Functions EXPRESSION vs DECLARATION no JavaScript ",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/scAYB-1ODGk",
+      "imagem": "https://yt3.ggpht.com/W7GokEE6ydjZFa_Tpz6yvSsDlVPTe7d4yTsJqKXy1Gbhu1BGXCfKJ_I-_TzOq37m8R9S97kQ=s48-c-k-c0x00ffffff-no-rj"
     }
   ]
 }
